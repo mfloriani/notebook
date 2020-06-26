@@ -13,9 +13,9 @@ OpenGL Project VS 2017
 
 Configuration Properties
   General
-    Output Directory: ```.\```
+    Output Directory: `.\`
   Debugging
-    Working Directory: ```$(OutDir)```
+    Working Directory: `$(OutDir)`
   C/C++
     General/Additional Include Directories: ```.\common\include```
     General/SDL Checks: ```No```
