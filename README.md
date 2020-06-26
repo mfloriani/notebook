@@ -25,3 +25,10 @@ Configuration Properties
     General/Additional Library Directories: .\common\lib
     Input/Additional Dependecies: opengl32.lib;glfw3.lib;glew32s.lib;
 ```
+
+Using `glew32s.lib` instead of `glew32.lib` requires to add `#define GLEW_STATIC` before the GLEW include:
+```
+#define GLEW_STATIC
+#include "GLEW/glew.h"
+```
+By doing this I do not need to add the DLL inside the output folder.
