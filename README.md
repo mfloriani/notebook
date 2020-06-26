@@ -11,17 +11,17 @@ screen = world - camera
 
 OpenGL Project VS 2017
 
+```
 Configuration Properties
   General
-    Output Directory: `.\`
+    Output Directory: .\
   Debugging
-    Working Directory: `$(OutDir)`
+    Working Directory: $(OutDir)
   C/C++
-    General/Additional Include Directories: ```.\common\include```
-    General/SDL Checks: ```No```
-    Precompiled Headers: ```No```
+    General/Additional Include Directories: .\common\include
+    General/SDL Checks: No
+    Precompiled Headers: No
   Linker
-    General/Additional Library Directories: ```.\common\lib```
-    Input/Additional Dependecies: ```opengl32.lib;glfw3.lib;glew32s.lib;```
-    
-
+    General/Additional Library Directories: .\common\lib
+    Input/Additional Dependecies: opengl32.lib;glfw3.lib;glew32s.lib;
+```
