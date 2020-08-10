@@ -5,15 +5,27 @@
 ```
 //find the world position
 world = screen + camera
+
 //find the screen position to an object in the world
 screen = world - camera
 ```
 
 ## Tiling
 
+### Get x/y index inside grid based on mouse position
 ```
-//find tile id from given x and y
-id = (y * TILE_SIZE) + x
+// 1 - convert mouse coord to world coord
+mouse_x = get_mouse_x() + camera_offset_x
+mouse_y = get_mouse_y() + camera_offset_y
+
+// 2 - get tile indexes in the grid
+tile_x = floor(mouse_x / TILE_WIDTH)
+tile_y = floor(mouse_y / TILE_HEIGHT)
+```
+
+### Get tile (cell) id in the grid from x/y index (see above)
+```
+id = (tile_y * TILE_SIZE) + tile_x
 ```
 
 ## OpenGL Project VS 2017
