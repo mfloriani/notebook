@@ -1,6 +1,6 @@
 # GAMEDEV
 
-2D Camera
+## 2D Camera
 
 ```
 //find the world position
@@ -9,7 +9,14 @@ world = screen + camera
 screen = world - camera
 ```
 
-OpenGL Project VS 2017
+## Tiling
+
+```
+//find tile id from given x and y
+id = (y * TILE_SIZE) + x
+```
+
+## OpenGL Project VS 2017
 
 ```
 Configuration Properties
