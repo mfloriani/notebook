@@ -25,7 +25,7 @@ tile_y = floor(mouse_y / TILE_HEIGHT)
 
 ### Get tile (cell) id in the grid from x/y index (see above)
 ```
-id = (tile_y * TILE_SIZE) + tile_x
+id = tile_y * GRID_WIDTH + tile_x
 ```
 
 ## OpenGL Project VS 2017
