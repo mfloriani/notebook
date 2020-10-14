@@ -28,6 +28,13 @@ tile_y = floor(mouse_y / TILE_HEIGHT)
 id = tile_y * GRID_WIDTH + tile_x
 ```
 
+### Get x /y from tile (cell) id:
+```
+x = floor( TILE_ID / GRID_WIDTH)
+y = TILE_ID mod GRID_WIDTH
+```
+
+
 ## OpenGL Project VS 2017
 
 ```
