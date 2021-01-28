@@ -26,6 +26,7 @@
 ### General
 
 - [Networking](https://gafferongames.com/post/fix_your_timestep/)
+- [null program - GPU particles](https://nullprogram.com/blog/2014/06/29/)
 
 ## 2D Camera
 
