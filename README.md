@@ -15,8 +15,8 @@
 
 ### DirectX
 
--[3dgep](https://www.3dgep.com/category/graphics-programming/directx/)
--[Braynzarsoft](https://www.braynzarsoft.net/viewtutorial/q16390-braynzar-soft-directx-11-tutorials)
+- [3dgep](https://www.3dgep.com/category/graphics-programming/directx/)
+- [Braynzarsoft](https://www.braynzarsoft.net/viewtutorial/q16390-braynzar-soft-directx-11-tutorials)
 
 ### OpenGL
 
