@@ -1,5 +1,15 @@
 # GAMEDEV
 
+## References
+
+### Rendering
+
+[GPU Gems](https://developer.nvidia.com/gpugems/gpugems/contributors)
+[GPU Gems 2](https://developer.nvidia.com/gpugems/gpugems2/copyright)
+[GPU Gems 3](https://developer.nvidia.com/gpugems/gpugems3/contributors)
+
+
+
 ## 2D Camera
 
 ```
