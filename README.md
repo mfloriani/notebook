@@ -8,7 +8,19 @@
 - [GPU Gems 2](https://developer.nvidia.com/gpugems/gpugems2/copyright)
 - [GPU Gems 3](https://developer.nvidia.com/gpugems/gpugems3/contributors)
 
+### Math
 
+- [Trigonometry](https://jdelezenne.github.io/Codex/Core/Trigonometry.html#d2589dfe-78a8-4217-b48e-05f6323562e2)
+- [Linear Algebra](http://immersivemath.com/ila/tableofcontents.html?)
+
+### OpenGL
+
+- [Learn OpenGL](https://learnopengl.com/Getting-started/OpenGL)
+- [Opengl-tutorial](http://www.opengl-tutorial.org/)
+
+### General
+
+- [Networking](https://gafferongames.com/post/fix_your_timestep/)
 
 ## 2D Camera
 
