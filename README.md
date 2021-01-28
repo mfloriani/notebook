@@ -13,6 +13,11 @@
 - [Trigonometry](https://jdelezenne.github.io/Codex/Core/Trigonometry.html#d2589dfe-78a8-4217-b48e-05f6323562e2)
 - [Linear Algebra](http://immersivemath.com/ila/tableofcontents.html?)
 
+### DirectX
+
+-[3dgep](https://www.3dgep.com/category/graphics-programming/directx/)
+-[Braynzarsoft](https://www.braynzarsoft.net/viewtutorial/q16390-braynzar-soft-directx-11-tutorials)
+
 ### OpenGL
 
 - [Learn OpenGL](https://learnopengl.com/Getting-started/OpenGL)
