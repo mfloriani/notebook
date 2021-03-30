@@ -8,6 +8,12 @@
 - [GPU Gems 2](https://developer.nvidia.com/gpugems/gpugems2/copyright)
 - [GPU Gems 3](https://developer.nvidia.com/gpugems/gpugems3/contributors)
 
+### Ray Tracing
+
+- [Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html)
+- [Ray Tracing the Next Week](https://raytracing.github.io/books/RayTracingTheNextWeek.html)
+- [Ray Tracing the Rest of Your Life](https://raytracing.github.io/books/RayTracingTheRestOfYourLife.html)
+
 ### Math
 
 - [3D math Primer for Game Development Online Book](https://gamemath.com/book/)
