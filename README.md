@@ -93,3 +93,18 @@ Using `glew32s.lib` instead of `glew32.lib` requires to add `#define GLEW_STATIC
 #include "GLEW/glew.h"
 ```
 By doing this I do not need to add the DLL inside the output folder.
+
+## DirectX 12
+
+`ID3D12DescriptorHeap`
+
+A descriptor heap can be considered an array of resource views.  
+It can contain Render Target Views (RTV), Shader Resource Views (SRVs), Unordered Access Views (UAVs), Constant Buffer Views (CBVs), and Samplers. The CBV, SRV, and UAV can be stored in the same heap but RTV and Sampler views each require separate descriptor heaps.  
+
+
+
+
+
+
+
+
