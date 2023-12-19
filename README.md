@@ -1,5 +1,13 @@
 # GAMEDEV
 
+## C++
+
+[C++](Docs/cpp.md)
+
+
+
+
+
 ## References
 
 ### Rendering
@@ -101,10 +109,30 @@ By doing this I do not need to add the DLL inside the output folder.
 A descriptor heap can be considered an array of resource views.  
 It can contain Render Target Views (RTV), Shader Resource Views (SRVs), Unordered Access Views (UAVs), Constant Buffer Views (CBVs), and Samplers. The CBV, SRV, and UAV can be stored in the same heap but RTV and Sampler views each require separate descriptor heaps.  
 
+## Unreal Engine
+
+Misc
+
+[Actor Lifecycle](https://docs.unrealengine.com/5.3/en-US/unreal-engine-actor-lifecycle/)
+[Smart Pointers](https://docs.unrealengine.com/5.3/en-US/smart-pointers-in-unreal-engine/)
+
+Profilling/Metrics
+
+[Stat Commands](https://www.tomlooman.com/unreal-engine-profiling-stat-commands/)
+[Optimization](https://www.tomlooman.com/unrealengine-optimization-talk/)
+[PSO Caching](https://www.tomlooman.com/psocaching-unreal-engine/)
 
 
+Tips
+
+Debug an UnrealEngine cooked shipped build with code changes?
+Use `-basedir=E:\ProjectName\Binaries\Win64` to make your Visual Studio game instance act like it was being run with your cooked shipping assets.
 
 
+## Rendering
 
+### OpenGL
+
+[Deferred Shading](https://learnopengl.com/Advanced-Lighting/Deferred-Shading)
 
 
