@@ -1,44 +1,14 @@
 # GAMEDEV
 
-## C++
-
 [C++](Docs/cpp.md)
 
+[Rendering](Docs/rendering.md)
 
+[Math](Docs/math.md)
 
+[Unreal](Docs/unreal.md)
 
-
-## References
-
-### Rendering
-
-- [GPU Gems](https://developer.nvidia.com/gpugems/gpugems/contributors)
-- [GPU Gems 2](https://developer.nvidia.com/gpugems/gpugems2/copyright)
-- [GPU Gems 3](https://developer.nvidia.com/gpugems/gpugems3/contributors)
-
-### Ray Tracing
-
-- [Ray Tracing in One Weekend](https://raytracing.github.io/books/RayTracingInOneWeekend.html)
-- [Ray Tracing the Next Week](https://raytracing.github.io/books/RayTracingTheNextWeek.html)
-- [Ray Tracing the Rest of Your Life](https://raytracing.github.io/books/RayTracingTheRestOfYourLife.html)
-
-### Math
-
-- [3D math Primer for Game Development Online Book](https://gamemath.com/book/)
-- [Trigonometry](https://jdelezenne.github.io/Codex/Core/Trigonometry.html#d2589dfe-78a8-4217-b48e-05f6323562e2)
-- [Linear Algebra](http://immersivemath.com/ila/tableofcontents.html?)
-
-### DirectX
-
-- [3dgep](https://www.3dgep.com/category/graphics-programming/directx/)
-- [Braynzarsoft](https://www.braynzarsoft.net/viewtutorial/q16390-braynzar-soft-directx-11-tutorials)
-
-### OpenGL
-
-- [Learn OpenGL](https://learnopengl.com/Getting-started/OpenGL)
-- [Opengl-tutorial](http://www.opengl-tutorial.org/)
-
-### General
+# Misc
 
 - [Networking](https://gafferongames.com/post/fix_your_timestep/)
 - [null program - GPU particles](https://nullprogram.com/blog/2014/06/29/)
@@ -46,10 +16,10 @@
 ## 2D Camera
 
 ```
-//find the world position
+// find the world position
 world = screen + camera
 
-//find the screen position to an object in the world
+// find the screen position to an object in the world
 screen = world - camera
 ```
 
@@ -77,62 +47,5 @@ x = floor( TILE_ID / GRID_WIDTH)
 y = TILE_ID mod GRID_WIDTH
 ```
 
-
-## OpenGL Project VS 2017
-
-```
-Configuration Properties
-  General
-    Output Directory: .\
-  Debugging
-    Working Directory: $(OutDir)
-  C/C++
-    General/Additional Include Directories: .\common\include
-    General/SDL Checks: No
-    Precompiled Headers: No
-  Linker
-    General/Additional Library Directories: .\common\lib
-    Input/Additional Dependecies: opengl32.lib;glfw3.lib;glew32s.lib;
-```
-
-Using `glew32s.lib` instead of `glew32.lib` requires to add `#define GLEW_STATIC` before the GLEW include:
-```
-#define GLEW_STATIC
-#include "GLEW/glew.h"
-```
-By doing this I do not need to add the DLL inside the output folder.
-
-## DirectX 12
-
-`ID3D12DescriptorHeap`
-
-A descriptor heap can be considered an array of resource views.  
-It can contain Render Target Views (RTV), Shader Resource Views (SRVs), Unordered Access Views (UAVs), Constant Buffer Views (CBVs), and Samplers. The CBV, SRV, and UAV can be stored in the same heap but RTV and Sampler views each require separate descriptor heaps.  
-
-## Unreal Engine
-
-Misc
-
-[Actor Lifecycle](https://docs.unrealengine.com/5.3/en-US/unreal-engine-actor-lifecycle/)
-[Smart Pointers](https://docs.unrealengine.com/5.3/en-US/smart-pointers-in-unreal-engine/)
-
-Profilling/Metrics
-
-[Stat Commands](https://www.tomlooman.com/unreal-engine-profiling-stat-commands/)
-[Optimization](https://www.tomlooman.com/unrealengine-optimization-talk/)
-[PSO Caching](https://www.tomlooman.com/psocaching-unreal-engine/)
-
-
-Tips
-
-Debug an UnrealEngine cooked shipped build with code changes?
-Use `-basedir=E:\ProjectName\Binaries\Win64` to make your Visual Studio game instance act like it was being run with your cooked shipping assets.
-
-
-## Rendering
-
-### OpenGL
-
-[Deferred Shading](https://learnopengl.com/Advanced-Lighting/Deferred-Shading)
 
 
