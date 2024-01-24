@@ -1,5 +1,7 @@
 # Misc
 
+[PCG Book](https://www.pcgbook.com/)
+
 [Wiki with lots of articles](http://pcg.wikidot.com/category-pcg-algorithms)  
 [Roguelike Stuff](https://roguebasin.com/index.php/Main_Page)
 
@@ -13,7 +15,7 @@
 
 [ErenCode Channel](https://www.youtube.com/playlist?list=PLn1X2QyVjFVDE9syarF1HoUFwB_3K7z2y)  
 - Perlin Noise to generate tiles
-- Generates noise texture in real time to visualisation
+- Generates noise texture in real time for visualisation
 - Tiles like grass, dirt and stone based on the height
 - Generates caves, trees, ores
 - Group tiles into chunks
