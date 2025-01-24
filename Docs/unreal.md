@@ -4,7 +4,8 @@ Misc
 
 [Actor Lifecycle](https://docs.unrealengine.com/5.3/en-US/unreal-engine-actor-lifecycle/)
 
-[Smart Pointers](https://docs.unrealengine.com/5.3/en-US/smart-pointers-in-unreal-engine/)
+[EPIC - Smart Pointers](https://docs.unrealengine.com/5.3/en-US/smart-pointers-in-unreal-engine/)
+[Wiki - Smart Pointers](https://unrealcommunity.wiki/pointer-types-m33pysxg)
 
 [Optimizing Shader](https://calvinatorrtech.art.blog/2023/12/20/optimizing-shaders-in-unreal-engine/)
 
@@ -23,6 +24,9 @@ Profilling/Metrics
 [PSO Caching](https://www.tomlooman.com/psocaching-unreal-engine/)
 
 Tips   
+
+CTRL+SHIFT+, -> opens GPU visualizer
+CTRL+SHIFT+H -> shows FPS/MS
 
 Debug an UnrealEngine cooked shipped build with code changes?
 Use `-basedir=E:\ProjectName\Binaries\Win64` to make your Visual Studio game instance act like it was being run with your cooked shipping assets.
